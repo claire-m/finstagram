@@ -1,0 +1,25 @@
+header {
+    background: linear-gradient(-45deg, #000080, #48D1CC);
+    text-shadow: 2px 2px #778899; 
+    text-indent: 50px;
+    height: 7em;
+}
+body {
+    background-color: whitesmoke;
+}
+main {
+    background-color: white;
+    padding: 16px;
+}
+.post {
+    margin-bottom: 48px;
+}
+.post .user-info img {
+    border-radius: 50%;
+}
+.post .user-info h2:hover {
+    font-size: 1.6em;
+}
+.post .user-info h2:active {
+    color: #00008B;
+}

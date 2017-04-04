@@ -31,8 +31,7 @@ header {
   align-items: baseline;
   font-family: 'Pacifico', cursive;
   color: #000080;
-  font-size: 35px;
-  padding: 10px 30px 10px 30px;
+  font-size: 45px;
 }
 
 header > .login-info {
