@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+    <head>
+       <link rel="stylesheet" href="/stylesheets/normalize.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Pacifico">
+       <link rel="stylesheet" href="/stylesheets/lib.css">
+       <link rel="stylesheet" href="/stylesheets/app.css">
+       <title>Finstagram</title> 
+    </head>
+    
+<body>
+    <header>
+        <h1>
+            <a href="/">Finstagram</a>
+        </h1>
+        <div class="login-info">
+            <% if current_user %>
+                <% current_user.username %>
+                <a href="/logout">Log Out</a>
+            <% else %>
+                <a href="/login">Log In</a>
+                <a href="/signup">Sign Up</a>
+            <% end %>
+        </div>
+    </header>
+    <main role="main">
+        <%= yield %>
+    </main>
+</body>
+    
